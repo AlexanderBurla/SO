@@ -1,0 +1,5 @@
+gcc -o producer_sem producer_sem.c -pthread -lrt
+gcc -o consumer_sem consumer_sem.c -pthread -lrt
+
+gcc -o producer_msg producer_msg.c
+gcc -o consumer_msg consumer_msg.c
